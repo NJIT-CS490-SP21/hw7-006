@@ -1,11 +1,8 @@
 body {
     text-align: center;
     font-family: Helvetica;
-<<<<<<< HEAD
-    background-color: lightblue;
-=======
     text-decoration: underline;
->>>>>>> 5f3c72e65dafe8cc40456b3816d8841bdbea3d3c
+    background-color: lightblue;
 }
 body:hover{
     background-color: #f5f5dc;
@@ -15,4 +12,9 @@ body:hover{
 h2{
     font-size: 40px;
     font-weight:bold;
+    color: black;
+    transition: color 0.3s;
+}
+h2:hover {
+    color: green;
 }
