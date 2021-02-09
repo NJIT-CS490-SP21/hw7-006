@@ -6,8 +6,7 @@ app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
 
 @app.route("/")
 def index():
-    students = ['Jerard']
-    return render_template("index.html", students=students)
+    return render_template("index.html")
 
 app.run(
     port=int(os.getenv("PORT", "8080")),
