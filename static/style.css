@@ -1,3 +1,9 @@
+h1 {
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 10px;
+}
+
 body {
-    font-family: Helvetica;
+    font-family: arial;
 }
