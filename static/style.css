@@ -6,6 +6,7 @@ h1 {
 
 body {
     text-align: center;
+    color : blue;
     font-family: Helvetica;
     text-decoration: underline;
     background-color: lightblue;
@@ -18,4 +19,9 @@ body:hover{
 h2{
     font-size: 40px;
     font-weight:bold;
+    color: black;
+    transition: color 0.3s;
+}
+h2:hover {
+    color: green;
 }
