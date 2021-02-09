@@ -1,7 +1,15 @@
 body {
     text-align: center;
     font-family: Helvetica;
+<<<<<<< HEAD
+    background-color: lightblue;
+=======
     text-decoration: underline;
+>>>>>>> 5f3c72e65dafe8cc40456b3816d8841bdbea3d3c
+}
+body:hover{
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
 }
 
 h2{
