@@ -1,6 +1,10 @@
 body {
     font-family: Helvetica;
 }
+body:hover{
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+}
 
 h2{
     font-size: 40px;
