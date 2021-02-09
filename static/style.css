@@ -3,9 +3,19 @@ body {
     color : blue;
     font-family: Helvetica;
     text-decoration: underline;
+    background-color: lightblue;
+}
+body:hover{
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
 }
 
 h2{
     font-size: 40px;
     font-weight:bold;
+    color: black;
+    transition: color 0.3s;
+}
+h2:hover {
+    color: green;
 }
