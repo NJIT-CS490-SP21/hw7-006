@@ -4,6 +4,10 @@ body {
     text-decoration: underline;
     background-color: lightblue;
 }
+body:hover{
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+}
 
 h2{
     font-size: 40px;
