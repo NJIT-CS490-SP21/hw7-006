@@ -4,6 +4,16 @@ h1 {
     padding: 10px;
 }
 
+.prof {
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 0px 8px rgba(252, 81, 133, 0.3);
+}
+
+.prof:hover { box-shadow: 0px 0px 0px 20px rgba(252, 81, 133, 1); }
+
 body {
     text-align: center;
     color : blue;
