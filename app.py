@@ -1,5 +1,6 @@
 import os
 import datetime
+import random
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -10,10 +11,12 @@ def index():
     professor = "Professor Agrawal"
     t = datetime.datetime.now()
     date = "Today is "+ t.strftime("%A") + " " + t.strftime("%B") + " " + t.strftime("%d") + ", " + t.strftime("%Y")
+    number=random.randint(1,10)
     return render_template(
         "index.html",
         professor=professor,
         date = date,
+        number=number
     )
 
 app.run(
