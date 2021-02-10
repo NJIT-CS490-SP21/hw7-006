@@ -4,6 +4,7 @@ h1 {
     padding: 10px;
 }
 
+
 .prof {
   border-radius: 50%;
   transition: box-shadow 0.3s ease-in-out;
@@ -18,14 +19,11 @@ body {
     text-align: center;
     color : blue;
     font-family: Helvetica;
-<<<<<<< HEAD
     font-family: 'Turret Road', cursive;
     background-color: lightblue;
     text-decoration: underline;
-=======
     text-decoration: underline;
     background-color: lightblue;
->>>>>>> f60cf3764720db841cbe395ee7bc453373715c67
 }
 body:hover{
     background-color: #f5f5dc;
@@ -45,6 +43,14 @@ h2:hover {
     html {
       height:90%;
   }
+  
+  importantVideo{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -200;
+  }
+
   .back {
     margin:1em auto;
     font-family:"Roboto";
