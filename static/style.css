@@ -79,3 +79,14 @@ h2:hover {
     text-align: center;
     font-size:30px;
   }
+  
+  .vs {
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial;
+  }
+  .vs:hover {
+    font-weight: bold;
+    color: black;
+  }
