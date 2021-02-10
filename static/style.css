@@ -101,7 +101,11 @@ h2:hover {
     text-align: center;
     font-size:30px;
   }
-  
+  .Kilroy {
+    color: #dfe0d1;
+    font-size: 2px;
+    
+  }
   .vs {
     color: red;
     font-size: 25px;
