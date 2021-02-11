@@ -1,3 +1,4 @@
+
 h1 {
     border: 2px  yellow;
     text-align: center;
@@ -31,7 +32,7 @@ h4 {
 
 body {
     text-align: center;
-    color : blue;
+    color : red;
     font-family: Helvetica;
     font-family: 'Turret Road', cursive;
     background-color: lightblue;
