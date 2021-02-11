@@ -2,6 +2,20 @@ h1 {
     border: 2px solid yellow;
     text-align: center;
     padding: 10px;
+    font-family: Cursive;
+}
+
+h2 {
+  font-family: Fantasy;
+}
+h2 span {
+  background-color: Aquamarine;
+}
+h3 {
+  font-family: Monospace;
+}
+h4 {
+  font-family: Serif;
 }
 
 
@@ -116,6 +130,7 @@ h2:hover {
     font-weight: bold;
     color: black;
   }
+  
   
   .confusion{
       font-family: 'Merriweather', serif;
