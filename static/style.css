@@ -1,5 +1,5 @@
 h1 {
-    border: 2px solid yellow;
+    border: 2px  yellow;
     text-align: center;
     padding: 10px;
     font-family: Cursive;
@@ -36,8 +36,6 @@ body {
     font-family: 'Turret Road', cursive;
     background-color: lightblue;
     text-decoration: underline;
-    text-decoration: underline;
-    background-color: lightblue;
 }
 body:hover{
     background-color: #f5f5dc;
