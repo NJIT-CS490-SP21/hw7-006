@@ -21,6 +21,7 @@ def index():
     Pic3 = os.path.join(app.config['UPLOAD_FOLDER'], 'Fullmetal.jpg')
     Pic4 = os.path.join(app.config['UPLOAD_FOLDER'], 'hero.jpg')
     Pic5 = os.path.join(app.config['UPLOAD_FOLDER'], 'Mandalorian.jpg')
+    spongegar = os.path.join(app.config['UPLOAD_FOLDER'], 'Spongegar.jpg')
     pics_list = [Pic1, Pic2, Pic3, Pic4, Pic5]
     
     colors = ["red", "blue", "green", "yellow", "orange", "purple", "white"]
@@ -36,7 +37,8 @@ def index():
         my_pic_list = pics_list,
         number=number,
         color_name = color_name,
-        colour_name = colour_name
+        colour_name = colour_name,
+        spongegar=spongegar
     )
 
 app.run(
