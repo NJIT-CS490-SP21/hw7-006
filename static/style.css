@@ -116,3 +116,17 @@ h2:hover {
     font-weight: bold;
     color: black;
   }
+  
+  .confusion{
+      font-family: 'Merriweather', serif;
+      font-size: 32pt;
+      font-style: italic;
+      height: 300px;
+      border: 5px dotted pink;
+  }
+  
+  .confusion:hover{
+      font-size: 48pt;
+      text-transform: uppercase;
+  }
+  

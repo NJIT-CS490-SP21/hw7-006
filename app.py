@@ -22,14 +22,21 @@ def index():
     Pic4 = os.path.join(app.config['UPLOAD_FOLDER'], 'hero.jpg')
     Pic5 = os.path.join(app.config['UPLOAD_FOLDER'], 'Mandalorian.jpg')
     pics_list = [Pic1, Pic2, Pic3, Pic4, Pic5]
-
+    
+    colors = ["red", "blue", "green", "yellow", "orange", "purple", "white"]
+    num = random.randint(0, len(colors)-1)
+    numnum = random.randint(0, len(colors)-1)
+    color_name = colors[num]
+    colour_name = colors[numnum]
     return render_template(
         "index.html",
         professor=professor,
         date = date,
         my_shows_list = shows,
         my_pic_list = pics_list,
-        number=number
+        number=number,
+        color_name = color_name,
+        colour_name = colour_name
     )
 
 app.run(

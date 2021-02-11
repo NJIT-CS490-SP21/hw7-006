@@ -5,7 +5,10 @@
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@300&display=swap');
         </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
         <script src="{{ url_for('static', filename='index.js') }}"></script>
+        
 
     </head>
     <body>
@@ -53,6 +56,14 @@
         <a href="https://www.youtube.com/watch?v=azFCwNjWP0g" title="Checkout Professor Agrawal's Website @ namanagrawal.me">
              <img src="https://namanagrawal.me/images/picofme.jpg" height="400px" width="400px" class="prof">
         </a>
+        
+        <p class="confusion" style="color: {{colour_name}};"> 
+            {{ color_name }} {{ color_name }} {{ color_name }} <br/> 
+            {{ color_name }} {{ color_name }} {{ color_name }}<br/> 
+            {{ color_name }} <del>{{ color_name }}</del> {{ color_name }}<br/> 
+            {{ color_name }} {{ color_name }} {{ color_name }}<br/> 
+            {{ color_name }} {{ color_name }} {{ color_name }}<br/>
+        </p>
         
         <style>
         .footer {
