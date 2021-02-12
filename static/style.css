@@ -1,7 +1,22 @@
+
 h1 {
-    border: 2px solid yellow;
+    border: 2px  yellow;
     text-align: center;
     padding: 10px;
+    font-family: Cursive;
+}
+
+h2 {
+  font-family: Fantasy;
+}
+h2 span {
+  background-color: Aquamarine;
+}
+h3 {
+  font-family: Monospace;
+}
+h4 {
+  font-family: Serif;
 }
 
 
@@ -18,6 +33,7 @@ h1 {
 
 body {
     text-align: center;
+    color : red;
     font-family: Helvetica;
     background-color: lightblue;
     text-decoration: underline;
@@ -98,7 +114,11 @@ h2:hover {
     text-align: center;
     font-size:30px;
   }
-  
+  .Kilroy {
+    color: #dfe0d1;
+    font-size: 2px;
+    
+  }
   .vs {
     color: red;
     font-size: 25px;
@@ -109,3 +129,33 @@ h2:hover {
     font-weight: bold;
     color: black;
   }
+  
+  
+  .confusion{
+      font-family: 'Merriweather', serif;
+      font-size: 32pt;
+      font-style: italic;
+      height: 300px;
+      border: 5px dotted pink;
+  }
+  
+  .confusion:hover{
+      font-size: 48pt;
+      text-transform: uppercase;
+  }
+  
+
+
+.k {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 8px 8px #ff1f8f, 20px 20px #000000;
+}
